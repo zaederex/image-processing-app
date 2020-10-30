@@ -1,0 +1,43 @@
+load res/big_ben.jpg
+blur
+save res big_ben-blur jpg
+load res/big_ben.jpg
+greyscale
+save res big_ben-greyscale jpg
+load res/big_ben.jpg
+sepia
+save res big_ben-sepia jpg
+load res/big_ben.jpg
+sharpen
+save res big_ben-sharp jpg
+load res/big_ben.jpg
+sharpen
+sharpen
+sharpen
+save res big_ben-3xsharp jpg
+load res/big_ben.jpg
+mosaic 1000
+save res big_ben-mosaic jpg
+load res/big_ben.jpg
+dither
+save res big_ben-dither jpg
+checkerboard 50
+save res checkerboard png
+rainbow 50 500 horizontal
+save res rainbow_horizontal png
+rainbow 50 500 vertical
+save res rainbow_vertical png
+flag 500 switzerland
+save res switzerland png
+flag 500 france
+save res france png
+flag 500 greece
+save res greece png
+load res/hyde_park.jpg
+mosaic 1000
+save res hyde_park-mosaic jpg
+load res/hyde_park.jpg
+dither
+save res hyde_park-dither jpg
+mosaic 1000
+save res hyde_park-dither-mosaic jpg
