@@ -1,4 +1,4 @@
-# Assignment 9: An Image Processing Application: Part 3
+# An Image Processing Application
 This project is an image processing application developed in Java that provides functionality to load an image, perform various operations on the image and also save the image as a file on disk. It also allows you generate certain images like checkboard, flags and rainbow stripes pattern.
 
 In Part 1 the functionality provided were filtering (blur and sharpen), color transformation (sepia and greyscale), generation of checkerboard, rainbow stripes (both horizontal and vertical) and generation of flags of Greece, France and Switzerland with the correct proportions.
