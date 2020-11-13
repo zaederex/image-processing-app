@@ -195,6 +195,9 @@ public class InteractiveAppControllerImpl extends AbstractController implements 
     if (seeds != null) {
       try {
         noOfSeeds = Integer.parseInt(seeds);
+        if (noOfSeeds < 1) {
+          throw new NumberFormatException();
+        }
       } catch (NumberFormatException e) {
         mosaic();
       }

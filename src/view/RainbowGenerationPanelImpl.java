@@ -40,16 +40,13 @@ public class RainbowGenerationPanelImpl extends JPanel implements RainbowGenerat
     this.add(new JLabel("Rainbow Orientation:"));
 
     orientationList = new JComboBox<>(orientations);
-    orientationList.addActionListener(new ActionListener() {
-      @Override
-      public void actionPerformed(ActionEvent e) {
-        if (orientationList.getSelectedIndex() == 0) {
-          imageDimension.setText("Image Height:");
-          stripeDimension.setText("Stripe Width:");
-        } else {
-          imageDimension.setText("Image Width:");
-          stripeDimension.setText("Stripe Height:");
-        }
+    orientationList.addActionListener(e -> {
+      if (orientationList.getSelectedIndex() == 0) {
+        imageDimension.setText("Image Height:");
+        stripeDimension.setText("Stripe Width:");
+      } else {
+        imageDimension.setText("Image Width:");
+        stripeDimension.setText("Stripe Height:");
       }
     });
     orientationList.setSelectedIndex(0);
